@@ -148,7 +148,7 @@
         <summary class="font-semibold cursor-pointer">🛠️ Advanced IT Troubleshooting Cases</summary>
         <ul class="list-disc pl-6 mt-2">
           <li><b>Blue Screen of Death (BSOD):</b> Run <code>whoami /scannow</code>, check drivers in Device Manager, check dump logs in <code>C:\Windows\Minidump</code>.</li>
-          <li><b>Windows Boot Issues:</b> Boot from recovery → <code>bootrec /fixmbr</code>, <code>bootrec /fixboot</code>, <code>bootrec /rebuildbcd</code>.</li>
+          <li><b>Windows Boot Issues:</b> Boot from recovery → <code>bootrec /fixmbr</code>, <code>bootrec /fixboot</code>, <code>bootrec /scanos</code>, <code>bootrec /rebuildbcd</code>.</li>
           <li><b>Disk Errors:</b> Run <code>chkdsk /f /r</code> on affected drive.</li>
           <li><b>Application Crashes:</b> Check Event Viewer (<code>eventvwr.msc</code>) under Application logs.</li>
           <li><b>Remote Desktop Issues:</b> Confirm RDP enabled (<code>sysdm.cpl</code>), allow port 3389 in firewall, check NLA settings.</li>
@@ -193,7 +193,21 @@
 
     </section>
   </main>
+      <!-- 🖨️ Automatic Repair Challenges -->
+      <details class="issue bg-white p-4 rounded-lg shadow dark:bg-gray-800">
+        <summary class="font-semibold cursor-pointer">🖨️ Automatic Repair</summary>
+        <ul class="list-disc pl-6 mt-2">
+          <li>Corrupted system files – Damaged or missing Windows files prevent normal boot.</li>
+          <li>Driver issues – A bad or incompatible driver update can block startup.</li>
+          <li>Failed updates or upgrades – Interrupted or incomplete Windows updates often cause boot errors(<code>control printers</code>).</li>
+          <li>.</li>
+          <li>Disk errors or bad sectors – Problems with your hard drive or SSD can stop Windows from loading.</li>
+          <li>Malware or improper shutdowns – Sudden power loss or infections can corrupt boot data..</li>
+        </ul>
+      </details>
 
+    </section>
+  </main>
   <footer class="bg-gray-800 text-white text-center p-4 mt-6 dark:bg-gray-950">
     &copy; 2025 IT Support | Simon Helpdesk
   </footer>
