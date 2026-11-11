@@ -18,4 +18,4 @@ The repository config pins the **Other** framework preset, disables the build co
 
 ## Update the guide
 
-Edit the `guides` array in `app.js`. Each guide includes a category, symptoms, ordered checks, risk level, and optional safety note and vendor reference. Keep steps general, safe, and compatible with your support policy. Verify vendor links periodically.
+Edit the `guides` array in `public/app.js`. Each guide includes a category, symptoms, ordered checks, risk level, and optional safety note and vendor reference. Keep steps general, safe, and compatible with your support policy. Verify vendor links periodically.
