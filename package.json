@@ -4,8 +4,7 @@
   "private": true,
   "description": "A searchable static IT troubleshooting guide with a Node.js local preview server.",
   "scripts": {
-    "dev": "node server.js",
-    "start": "node server.js"
+    "dev": "node server.js"
   },
   "engines": {
     "node": ">=18"

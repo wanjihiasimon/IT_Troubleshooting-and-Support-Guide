@@ -14,7 +14,7 @@ Open <http://localhost:3000>.
 
 ## Deploy to Vercel
 
-Import this repository in Vercel and use the **Other** framework preset. Leave the build command and output directory blank; Vercel serves `index.html`, `styles.css`, and `app.js` as static files from the project root. No environment variables are required. The Node server is for local preview only; Vercel's static hosting serves the published site.
+The repository config pins the **Other** framework preset, disables the build command, and publishes only the `public/` directory. Import the repository and redeploy; no environment variables are required. `server.js` is for local preview only and is outside the published output. The site files to edit are `public/index.html`, `public/styles.css`, and `public/app.js`.
 
 ## Update the guide
 
